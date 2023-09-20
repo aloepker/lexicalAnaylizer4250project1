@@ -1,27 +1,21 @@
-/* front.c - a lexical analyzer system for simple
-arithmetic expressions */
-
-#include <stdio.h>
-#include <ctype.h>
-
 /* Global declarations */
 /* Variables */
-int charClass;
-char lexeme [100];
-char nextChar;
-int lexLen;
-int token;
-int nextToken;
-FILE *in_fp, *fopen();
-
-
+done - int charClass;
+done - char lexeme [100];
+done - char nextChar;
+done - int lexLen;
+done - int token;
+done - int nextToken;
 /* Function declarations */
-void addChar();
-void getChar();
-void getNonBlank();
-int lex();
+done - void addChar();
+done - void getChar();
+done - void getNonBlank();
+done - int lex();
 
-/* Character classes */
+done - FILE *in_fp, *fopen();
+
+
+/* Character classes */           constant declrations
 #define LETTER 0
 #define DIGIT 1
 #define UNKNOWN 99
@@ -50,8 +44,7 @@ main() {
 }
 
 
-/* lookup - a function to lookup operators and parentheses
-and return the token */
+        /* lookup - a function to lookup operators and parentheses and return the token */
 
 int lookup(char ch) {
 switch (ch) {
@@ -98,7 +91,7 @@ nextToken;
 
 
 
-/* addChar - a function to add nextChar to lexeme */
+    /* addChar - a function to add nextChar to lexeme */
 
 void addChar() {
 if (lexLen <= 98) {
@@ -113,8 +106,7 @@ printf("Error - lexeme is too long \n");
 
 
 
-/* getChar - a function to get the next character of
-input and determine its character class */
+        /* getChar - a function to get the next character of input and determine its character class */
 
 void getChar() {
 if ((nextChar = getc(in_fp)) = EOF) {
@@ -130,8 +122,7 @@ charClass = EOF;
 
 
 
-/* getNonBlank - a function to call getChar until it
-returns a non-whitespace character */
+        /* getNonBlank - a function to call getChar until it returns a non-whitespace character */
 
 void getNonBlank() {
 while (isspace(nextChar))
@@ -139,8 +130,9 @@ getChar();
 }
 
 
-/* lex - a simple lexical analyzer for arithmetic
-expressions */
+
+
+                /* lex - a simple lexical analyzer for arithmetic expressions */
 
 int lex() {
 lexLen = 0;
