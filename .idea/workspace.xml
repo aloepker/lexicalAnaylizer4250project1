@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cCode" beforeDir="false" afterPath="$PROJECT_DIR$/src/cCode" afterDir="false" />
@@ -50,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695070061629</updated>
       <workItem from="1695070062721" duration="2650000" />
-      <workItem from="1695230411323" duration="6892000" />
+      <workItem from="1695230411323" duration="7983000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -68,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695070265312</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!">
+      <option name="closed" value="true" />
+      <created>1695239552183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695239552184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!" />
+    <MESSAGE value="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!" />
   </component>
 </project>
