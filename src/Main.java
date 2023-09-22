@@ -1,12 +1,14 @@
 import java.io.*;
 import java.util.Arrays;
+//import static java.lang.Character.isAlphabetic;
+//import static java.lang.Character.isDigit;
 //import java.util.*;  not used
 
 public class Main {
 //variable calls
     public static int charClass, lexLen, nextToken; //token variable not used
     public static char nextChar;
-    public static char[] lexeme = new char[100];
+    public static char[] lexeme = new char[10]; //from 100
     public static FileReader in_fp;
     public static final int LETTER = 0;
     public static final int DIGIT = 1;
@@ -22,7 +24,7 @@ public class Main {
     public static final int RIGHT_PAREN = 26;
     public static final int EOF = -1;
 
-    public static int lookup(char ch){   // apparently when this function is called, it is not looking for return data..
+    public static void lookup(char ch){   // apparently when this function is called, it is not looking for return data.. so I changed it to void from int
         switch(ch){
             case '(':
                 addChar();
@@ -57,7 +59,7 @@ public class Main {
                 nextToken = EOF;
                 break;
         }
-        return nextToken;
+        //return nextToken; not needed with void return type
     }
 
     public static void addChar(){
@@ -70,15 +72,35 @@ public class Main {
     }
 
     public static void getChar() {
-        if ((nextChar = getc(in_fp)) = EOF) {
-            if (isalpha(nextChar))
+      /*  if ((nextChar = get c(in_fp)) = EOF) {
+            if (isAlphabetic(nextChar))
                 charClass = LETTER;
-            else if (isdigit(nextChar))
+            else if (isDigit(nextChar))
                 charClass = DIGIT;
             else charClass = UNKNOWN;
         }
         else
             charClass = EOF;
+       */
+        try {
+            int nextCharInt = in_fp.read();
+            if (nextCharInt == -1) {
+                charClass = EOF;
+            } else {
+                nextChar = (char) nextCharInt;
+                if (Character.isLetter(nextChar)) {
+                    charClass = LETTER;
+                } else if (Character.isDigit(nextChar)) {
+                    charClass = DIGIT;
+                } else {
+                    charClass = UNKNOWN;
+                }
+            }
+        } catch (IOException e) {
+            charClass = EOF;
+        }
+
+
     }
 
     public static void getNonBlank(){ //a function to call getChar until it returns a non-whitespace character
@@ -87,7 +109,7 @@ public class Main {
         }
     }
 
-    public static int lex(){
+    public static void lex(){ //switching from into to void return type
         lexLen = 0;
         getNonBlank();
         switch(charClass) {
@@ -125,15 +147,25 @@ public class Main {
                 break;
         } /* End of switch */
         System.out.println("Next token is: "+nextToken+", Next lexeme is "+ Arrays.toString(lexeme) +"\n"); //added tostring code
-        return nextToken;
+        //return nextToken; not needed with void return type
     } /* End of function lex */
-    public static void main(String[] args) {
-        System.out.println("\nThat's it! That's the melody to funky town!!\n");
-        if ((in_fp = fopen("front.in", "r")) == NULL) {
+    public static void main(String[] args) {  // wrap in a try catch, see code translation
+       /* System.out.println("\nThat's it! That's the melody to funky town!!\n");
+        if ((in_fp = f open("front.in", "r")) == Null) {
             System.out.println("Error - Cannot open front.in\n");
         }else{
             getChar();
             do{lex();}while(nextToken != EOF);
+        }*/
+        try {
+            in_fp = new FileReader("test.txt"); //from front.in
+            getChar();
+            do {
+                lex();
+            } while (nextToken != EOF);
+        } catch (IOException e) {
+            System.out.println("ERROR - cannot open test.txt"); //from front.in
         }
+        //let's see if this bs works, lol
     }
 }

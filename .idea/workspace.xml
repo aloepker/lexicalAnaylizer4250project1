@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!">
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cCode" beforeDir="false" afterPath="$PROJECT_DIR$/src/cCode" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/adam/IdeaProjects/lexicalAnalyzer4250project1/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/adam/IdeaProjects/lexicalAnalyzer4250project1/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +55,7 @@
       <workItem from="1695230411323" duration="8940000" />
       <workItem from="1695266522849" duration="48000" />
       <workItem from="1695312894050" duration="3094000" />
-      <workItem from="1695338295853" duration="3033000" />
+      <workItem from="1695338295853" duration="5544000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -95,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695317548671</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!">
+      <option name="closed" value="true" />
+      <created>1695341703148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695341703148</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +127,7 @@
     <MESSAGE value="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!" />
     <MESSAGE value="Commit # 3&#10;&#10;Updated constant variable declrations" />
     <MESSAGE value="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!" />
+    <MESSAGE value="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!" />
   </component>
 </project>
