@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 6&#10;&#10;C code converted to working Java code!&#10;Current issues: return char array length is obtuse, probably better to switch to string type for more concise output.">
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project.">
+      <change afterPath="$PROJECT_DIR$/front.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -55,7 +56,7 @@
       <workItem from="1695230411323" duration="8940000" />
       <workItem from="1695266522849" duration="48000" />
       <workItem from="1695312894050" duration="3094000" />
-      <workItem from="1695338295853" duration="7539000" />
+      <workItem from="1695338295853" duration="8075000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -113,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695346110372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project.">
+      <option name="closed" value="true" />
+      <created>1695348082702</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695348082702</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,82 +147,7 @@
     <MESSAGE value="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!" />
     <MESSAGE value="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!" />
     <MESSAGE value="Commit # 6&#10;&#10;C code converted to working Java code!&#10;Current issues: return char array length is obtuse, probably better to switch to string type for more concise output." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit # 6&#10;&#10;C code converted to working Java code!&#10;Current issues: return char array length is obtuse, probably better to switch to string type for more concise output." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>168</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>170</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>142</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project." />
   </component>
 </project>
