@@ -1,9 +1,10 @@
 import java.io.*;
-import java.util.*;
+import java.util.Arrays;
+//import java.util.*;  not used
 
 public class Main {
 //variable calls
-    public static int charClass, lexLen, token=10, nextToken, i;
+    public static int charClass, lexLen, nextToken; //token variable not used
     public static char nextChar;
     public static char[] lexeme = new char[100];
     public static FileReader in_fp;
@@ -21,7 +22,7 @@ public class Main {
     public static final int RIGHT_PAREN = 26;
     public static final int EOF = -1;
 
-    public static int lookup(char ch){
+    public static int lookup(char ch){   // apparently when this function is called, it is not looking for return data..
         switch(ch){
             case '(':
                 addChar();
@@ -46,6 +47,10 @@ public class Main {
             case '/':
                 addChar();
                 nextToken = DIV_OP;
+                break;
+            case '=':
+                addChar();
+                nextToken = ASSIGN_OP;
                 break;
             default:
                 addChar();
@@ -86,12 +91,42 @@ public class Main {
         lexLen = 0;
         getNonBlank();
         switch(charClass) {
-
-
-        }
-
-        return lexLen;
-    }
+            case LETTER:
+                addChar();
+                getChar();
+                while (charClass == LETTER || charClass == DIGIT) {
+                    addChar();
+                    getChar();
+                }
+                nextToken = IDENT;
+                break;
+            /* Parse integer literals */
+            case DIGIT:
+                addChar();
+                getChar();
+                while (charClass == DIGIT) {
+                    addChar();
+                    getChar();
+                }
+                nextToken = INT_LIT;
+                break;
+            /* Parentheses and operators */
+            case UNKNOWN:
+                lookup(nextChar);
+                getChar();
+                break;
+            /* EOF */
+            case EOF:
+                nextToken = EOF;
+                lexeme[0] = 'E';
+                lexeme[1] = 'O';
+                lexeme[2] = 'F';
+                lexeme[3] = 0;
+                break;
+        } /* End of switch */
+        System.out.println("Next token is: "+nextToken+", Next lexeme is "+ Arrays.toString(lexeme) +"\n"); //added tostring code
+        return nextToken;
+    } /* End of function lex */
     public static void main(String[] args) {
         System.out.println("\nThat's it! That's the melody to funky town!!\n");
         if ((in_fp = fopen("front.in", "r")) == NULL) {

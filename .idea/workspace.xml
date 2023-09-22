@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 3&#10;&#10;Updated constant variable declrations">
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cCode" beforeDir="false" afterPath="$PROJECT_DIR$/src/cCode" afterDir="false" />
@@ -52,7 +52,8 @@
       <workItem from="1695070062721" duration="2650000" />
       <workItem from="1695230411323" duration="8940000" />
       <workItem from="1695266522849" duration="48000" />
-      <workItem from="1695312894050" duration="2883000" />
+      <workItem from="1695312894050" duration="3094000" />
+      <workItem from="1695338295853" duration="3033000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -86,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695240464793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!">
+      <option name="closed" value="true" />
+      <created>1695317548671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695317548671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +116,7 @@
     <MESSAGE value="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!" />
     <MESSAGE value="Commit # 2&#10;&#10;Updated the code structure.&#10;&#10;Started defining variables to be used as well.&#10;&#10;Steady as she goes!" />
     <MESSAGE value="Commit # 3&#10;&#10;Updated constant variable declrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit # 3&#10;&#10;Updated constant variable declrations" />
+    <MESSAGE value="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 4&#10;&#10;Importing c code line by line. about 80% done!" />
   </component>
 </project>
