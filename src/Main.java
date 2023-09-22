@@ -63,7 +63,7 @@ public class Main {
         try {
             int nextCharInt = in_fp.read();
             if (nextCharInt == -1) {
-                charClass = EOF;
+                charClass = EOF; //
             } else {
                 nextChar = (char) nextCharInt;
                 if (Character.isLetter(nextChar)) {
@@ -79,7 +79,7 @@ public class Main {
         }
     }
     public static void getNonBlank(){
-        while (Character.isWhitespace(nextChar)) {
+        while (Character.isWhitespace(nextChar) && charClass != EOF) {  //let's see what this does
             getChar();
         }
     }
@@ -111,8 +111,8 @@ public class Main {
                 getChar();
                 break;
             case EOF:
-                nextToken = EOF;
                 lex = "EOF";
+                nextToken = EOF;
                 break;
         }
         System.out.println("Next token is: "+nextToken+", Next lexeme is "+ lex +"\n");
