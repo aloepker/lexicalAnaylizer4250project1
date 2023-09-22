@@ -1,0 +1,26 @@
+/home/adam/.jdks/corretto-20.0.2.1/bin/java -javaagent:/app/extra/IDEA-U/lib/idea_rt.jar=38049:/app/extra/IDEA-U/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/adam/IdeaProjects/lexicalAnalyzer4250project1/out/production/lexicalAnalyzer4250project1 Main
+Next token is: 25, Next lexeme is (
+
+Next token is: 11, Next lexeme is sum
+
+Next token is: 21, Next lexeme is +
+
+Next token is: 10, Next lexeme is 47
+
+Next token is: 26, Next lexeme is )
+
+Next token is: 24, Next lexeme is /
+
+Next token is: 11, Next lexeme is total
+
+Next token is: 11, Next lexeme is var
+
+Next token is: 20, Next lexeme is =
+
+Next token is: 11, Next lexeme is total
+
+Next token is: 23, Next lexeme is *
+
+Next token is: 10, Next lexeme is 5
+
+

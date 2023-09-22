@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project.">
-      <change afterPath="$PROJECT_DIR$/front.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 8&#10;&#10;Finished!&#10;Code segment has been cleaned!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +52,7 @@
       <workItem from="1695230411323" duration="8940000" />
       <workItem from="1695266522849" duration="48000" />
       <workItem from="1695312894050" duration="3094000" />
-      <workItem from="1695338295853" duration="8075000" />
+      <workItem from="1695338295853" duration="8306000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -122,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695348082702</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit # 8&#10;&#10;Finished!&#10;Code segment has been cleaned!&#10;Code Runs as Expected!&#10;Ready to turn in!">
+      <option name="closed" value="true" />
+      <created>1695348648370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695348648370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +152,7 @@
     <MESSAGE value="Commit # 5&#10;&#10;C code is copied, now onto converting into working Java code!" />
     <MESSAGE value="Commit # 6&#10;&#10;C code converted to working Java code!&#10;Current issues: return char array length is obtuse, probably better to switch to string type for more concise output." />
     <MESSAGE value="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project." />
+    <MESSAGE value="Commit # 8&#10;&#10;Finished!&#10;Code segment has been cleaned!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 8&#10;&#10;Finished!&#10;Code segment has been cleaned!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
   </component>
 </project>
