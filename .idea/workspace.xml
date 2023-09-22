@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 8&#10;&#10;*Amended test output and added output text file*&#10;Finished!&#10;Code Runs as Expected!&#10;Ready to turn in!">
+    <list default="true" id="dc3ce0bc-5a49-48c4-be8b-4bb51dc266f1" name="Changes" comment="Commit # 9&#10;&#10;Amended the input text file to include two arguments.&#10;Updated the output text file to include the text output.&#10;&#10;Found a bug that kept the code from reading EOF&#10;(it was sneaky too, debugger kept skipping over it)&#10;&#10;Now the project is completely done and ready to turn in a day early for an extra point!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front.in" beforeDir="false" afterPath="$PROJECT_DIR$/front.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -58,7 +58,8 @@
       <workItem from="1695312894050" duration="3094000" />
       <workItem from="1695338295853" duration="8306000" />
       <workItem from="1695349229493" duration="389000" />
-      <workItem from="1695349766252" duration="3063000" />
+      <workItem from="1695349766252" duration="3335000" />
+      <workItem from="1695353119230" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!&#10;&#10;organizing program layout and making a game plan.&#10;&#10;Got around the issue if being unable to run sample code, now I'm unstoppable!">
       <option name="closed" value="true" />
@@ -140,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695349464446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit # 9&#10;&#10;Amended the input text file to include two arguments.&#10;Updated the output text file to include the text output.&#10;&#10;Found a bug that kept the code from reading EOF&#10;(it was sneaky too, debugger kept skipping over it)&#10;&#10;Now the project is completely done and ready to turn in a day early for an extra point!">
+      <option name="closed" value="true" />
+      <created>1695353092906</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695353092906</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,19 +177,15 @@
     <MESSAGE value="Commit # 7&#10;&#10;All Issues Fixed!&#10;Code Runs as Expected!&#10;That's it!&#10;Java code runs correctly!&#10;That's the melody to Funky Town!&#10;&#10;All that remains is cleaning up the code segment and turning in the project." />
     <MESSAGE value="Commit # 8&#10;&#10;Finished!&#10;Code segment has been cleaned!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
     <MESSAGE value="Commit # 8&#10;&#10;*Amended test output and added output text file*&#10;Finished!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit # 8&#10;&#10;*Amended test output and added output text file*&#10;Finished!&#10;Code Runs as Expected!&#10;Ready to turn in!" />
+    <MESSAGE value="Commit # 9&#10;&#10;Amended the input text file to include two arguments.&#10;Updated the output text file to include the text output.&#10;&#10;Found a bug that kept the code from reading EOF&#10;(it was sneaky too, debugger kept skipping over it)&#10;&#10;Now the project is completely done and ready to turn in a day early for an extra point!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit # 9&#10;&#10;Amended the input text file to include two arguments.&#10;Updated the output text file to include the text output.&#10;&#10;Found a bug that kept the code from reading EOF&#10;(it was sneaky too, debugger kept skipping over it)&#10;&#10;Now the project is completely done and ready to turn in a day early for an extra point!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>65</line>
+          <line>70</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

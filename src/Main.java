@@ -17,6 +17,7 @@ public class Main {
     public static final int DIV_OP = 24;
     public static final int LEFT_PAREN = 25;
     public static final int RIGHT_PAREN = 26;
+    public static final int SEM_COL = 27;
     public static final int EOF = -1;
 
     public static void lookup(char ch){
@@ -49,6 +50,10 @@ public class Main {
             case '=':
                 addChar();
                 nextToken = ASSIGN_OP;
+                break;
+            case ';':
+                addChar();
+                nextToken = SEM_COL;
                 break;
             default:
                 addChar();
