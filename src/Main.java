@@ -8,7 +8,8 @@ public class Main {
 //variable calls
     public static int charClass, lexLen, nextToken; //token variable not used
     public static char nextChar;
-    public static char[] lexeme = new char[10]; //from 100
+    //public static char[] lexeme = new char[6]; //from 100
+    public static String lex;
     public static FileReader in_fp;
     public static final int LETTER = 0;
     public static final int DIGIT = 1;
@@ -25,6 +26,7 @@ public class Main {
     public static final int EOF = -1;
 
     public static void lookup(char ch){   // apparently when this function is called, it is not looking for return data.. so I changed it to void from int
+        lex = "";    // experimental code!
         switch(ch){
             case '(':
                 addChar();
@@ -63,12 +65,14 @@ public class Main {
     }
 
     public static void addChar(){
-        if (lexLen<= 98){
-            lexeme[lexLen++] = nextChar;
-            lexeme[lexLen] = 0;
-        } else {
-            System.out.println("Error - lexeme is too long\n");
-        }
+       // if (lexLen<= 98){
+           // lexeme[lexLen++] = nextChar;
+           // lexeme[lexLen] = 0;
+
+       // } else {
+        //    System.out.println("Error - lexeme is too long\n");
+      //  }
+        lex = lex + nextChar;
     }
 
     public static void getChar() {
@@ -111,6 +115,8 @@ public class Main {
 
     public static void lex(){ //switching from into to void return type
         lexLen = 0;
+        //this might be the ideal spot to add: lex="";
+        lex="";
         getNonBlank();
         switch(charClass) {
             case LETTER:
@@ -140,13 +146,14 @@ public class Main {
             /* EOF */
             case EOF:
                 nextToken = EOF;
-                lexeme[0] = 'E';
-                lexeme[1] = 'O';
-                lexeme[2] = 'F';
-                lexeme[3] = 0;
+              //  lexeme[0] = 'E';
+              //  lexeme[1] = 'O';
+              //  lexeme[2] = 'F';
+              //  lexeme[3] = 0;
+                lex = "EOF";
                 break;
         } /* End of switch */
-        System.out.println("Next token is: "+nextToken+", Next lexeme is "+ Arrays.toString(lexeme) +"\n"); //added tostring code
+        System.out.println("Next token is: "+nextToken+", Next lexeme is "+ lex +"\n"); //added tostring code    removed: Arrays.toString(lexeme)
         //return nextToken; not needed with void return type
     } /* End of function lex */
     public static void main(String[] args) {  // wrap in a try catch, see code translation
@@ -167,5 +174,6 @@ public class Main {
             System.out.println("ERROR - cannot open test.txt"); //from front.in
         }
         //let's see if this bs works, lol
+        System.out.println(":D  That's it!! That's the melody to funky town!!!");
     }
 }
